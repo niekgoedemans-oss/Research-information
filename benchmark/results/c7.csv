@@ -1,0 +1,7 @@
+library,situatie,commando,exitcode
+jest,alle-tests-groen,jest tests/,0
+jest,falende-tests-c4,jest tests-fail/,1
+jest,geen-testbestanden,jest tests-empty/,1
+vitest,alle-tests-groen,vitest tests/,0
+vitest,falende-tests-c4,vitest tests-fail/,1
+vitest,geen-testbestanden,vitest tests-empty/,1

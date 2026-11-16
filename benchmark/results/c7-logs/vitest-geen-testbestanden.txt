@@ -1,0 +1,10 @@
+[33mThe plugin "vite-tsconfig-paths" is detected. Vite now supports tsconfig paths resolution natively via the [1mresolve.tsconfigPaths[22m option. You can remove the plugin and set [1mresolve.tsconfigPaths: true[22m in your Vite config instead.[39m
+
+ RUN  v5.1.0 /Users/niek.goedemans/Desktop/Projects/Benchmark-jest-vitest/benchmark/vitest-app
+
+No test files found, exiting with code 1
+
+filter: tests-empty/
+include: **/*.{test,spec}.?(c|m)[jt]s?(x)
+exclude:  **/node_modules/**, **/.git/**
+

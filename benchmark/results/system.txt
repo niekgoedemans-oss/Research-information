@@ -1,0 +1,7 @@
+Datum:        2026-11-14T22:02:10.761Z
+OS:           macOS 27.2 (26B123) · Darwin 27.2.0 · arm64
+CPU:          Apple M1 Max · 10 logische cores
+RAM:          32 GB
+Node.js:      v24.20.0
+pnpm:         12.4.2
+watchman:     niet geïnstalleerd

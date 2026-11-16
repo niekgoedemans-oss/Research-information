@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 720px;
+  padding: 24px 16px;
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+}
+
+label {
+  display: block;
+  margin-top: 12px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="search"],
+select,
+textarea {
+  width: 100%;
+  padding: 6px 8px;
+}
+
+.error {
+  color: #b00020;
+  margin: 4px 0 0;
+}
