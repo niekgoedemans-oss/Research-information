@@ -1,0 +1,5 @@
+library,modus,exitcode,tijd_ms,bestanden_aangemaakt
+cypress,lokaal,2,12011,2
+playwright,lokaal,1,30855,6
+cypress,ci,2,11940,2
+playwright,ci,1,108629,33

@@ -1,0 +1,19 @@
+[35mWarning: We failed to trash the existing run results.[39m
+[35m[39m
+[35mThis error will not affect or change the exit code.[39m
+[35m[39m
+[35mError: spawn Unknown system error -86[39m
+[35m    at ChildProcess.spawn (node:internal/child_process:487:11)[39m
+[35m    at spawn (node:child_process:827:9)[39m
+[35m    at execFile (node:child_process:349:17)[39m
+[35m    at execFile (node:child_process:245:21)[39m
+[35m    at execFile (node:electron/js2c/node_init:2:4060)[39m
+[35m    at s.exports (<embedded>:1146:535911)[39m
+[35m    at s.exports (<embedded>:1146:536512)[39m
+[35m    at s.exports (<embedded>:1146:579768)[39m
+[35m    at async <embedded>:3002:111697[39m
+[31mCan't run because [95mno spec files[39m[31m were found.[39m
+[31m[39m
+[31mWe searched for specs matching this glob pattern:[39m
+[31m[39m
+[31m[90m  > [39m[31m[94m…/e2e-benchmark/cypress-app/[33mcypress/e2e/empty/**/*.cy.ts[39m[31m[94m[39m[31m[39m

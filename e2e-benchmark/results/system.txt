@@ -1,0 +1,11 @@
+Datum:              2026-11-17T11:35:33.944Z
+OS:                 macOS 27.2.1 (26B131) · Darwin 27.2.0 · arm64
+CPU:                Apple M1 Max · 10 logische cores
+RAM:                32 GB
+Node.js:            v24.20.0
+pnpm:               12.4.2
+next (base):        16.4.6
+Cypress:            16.3.0 (binary 16.3.0)
+Cypress-browser:    Electron 43.8.4 / Chromium 150.0.7871.250 (standaardbrowser van cypress run)
+@playwright/test:   1.65.1
+Playwright-browser: Chromium 159.0.8154.6 (project "chromium", Desktop Chrome; headless = chrome-headless-shell)

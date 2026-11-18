@@ -1,0 +1,27 @@
+{
+  "name": "base",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "playwright test tests/main/",
+    "test:bench": "playwright test tests/bench/",
+    "test:fail": "playwright test tests/fail/",
+    "test:empty": "playwright test tests/empty/"
+  },
+  "dependencies": {
+    "next": "16.4.6",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^5"
+  },
+  "packageManager": "pnpm@12.4.2"
+}

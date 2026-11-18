@@ -1,0 +1,8 @@
+Bestanden die `playwright test tests/fail/` (modus lokaal) aanmaakte of wijzigde in playwright-app/:
+
+playwright-report/data/a0d60310b94f5c2c817a29e6f32b9e8db2ce3c8c.md	4697 bytes
+playwright-report/data/da98988492f019c78e26de9a67cae70298bdc0fc.md	3948 bytes
+playwright-report/index.html	521202 bytes
+test-results/.last-run.json	145 bytes
+test-results/fail-opzettelijk-falend-Op-c302c-re-succestekst-dan-de-echte-chromium/error-context.md	3948 bytes
+test-results/fail-opzettelijk-falend-Op-f3fd2-p-een-knop-die-niet-bestaat-chromium/error-context.md	4697 bytes

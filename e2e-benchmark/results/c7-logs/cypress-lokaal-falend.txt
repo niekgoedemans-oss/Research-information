@@ -1,0 +1,116 @@
+Warning: We failed to trash the existing run results.
+
+This error will not affect or change the exit code.
+
+Error: spawn Unknown system error -86
+    at ChildProcess.spawn (node:internal/child_process:487:11)
+    at spawn (node:child_process:827:9)
+    at execFile (node:child_process:349:17)
+    at execFile (node:child_process:245:21)
+    at execFile (node:electron/js2c/node_init:2:4060)
+    at s.exports (<embedded>:1146:535911)
+    at s.exports (<embedded>:1146:536512)
+    at s.exports (<embedded>:1146:579768)
+    at async <embedded>:3002:111697
+
+================================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:        16.3.0                                                                         │
+  │ Browser:        Electron 150 (headless) (deprecated)                                           │
+  │ Node Version:   v24.20.0 (/usr/local/bin/node)                                                 │
+  │ Specs:          1 found (opzettelijk-falend.cy.ts)                                             │
+  │ Searched:       cypress/e2e/fail/**/*.cy.ts                                                    │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+Warning: The Electron browser is deprecated as a test browser and will be removed in a future version of Cypress.
+
+Switch to Chrome or another installed browser to avoid a breaking change when you upgrade.
+
+Read more about supported browsers: https://on.cypress.io/launching-browsers
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  opzettelijk-falend.cy.ts                                                        (1 of 1)
+
+
+  Opzettelijk falend
+    1) verwacht een andere succestekst dan de echte
+    2) klikt op een knop die niet bestaat
+
+
+  0 passing (9s)
+  2 failing
+
+  1) Opzettelijk falend
+       verwacht een andere succestekst dan de echte:
+     AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Bedankt voor je inschrijving!' but never did.
+      at Context.eval (webpack://base/./cypress/e2e/fail/opzettelijk-falend.cy.ts:28:49)
+
+  2) Opzettelijk falend
+       klikt op een knop die niet bestaat:
+     AssertionError: Timed out retrying after 4000ms: Expected to find an accessible native element with the role "button" and name "Annuleer sollicitatie", but never did.
+
+Here are the accessible roles that were found, with the accessible name of each element:
+
+  - main: (no name)
+  - heading: "Vacatures", "Frontend developer", "Backend developer", "UX-designer", "Data-analist" and 1 more
+  - region: "Vacatures"
+  - searchbox: "Zoeken"
+  - combobox: "Locatie"
+  - option: "Alle locaties", "Amsterdam", "Groningen", "Utrecht"
+  - status: (no name)
+  - list: (no name)
+  - listitem: (no name), (no name), (no name), (no name)
+  - article: "Frontend developer", "Backend developer", "UX-designer", "Data-analist"
+  - paragraph: (no name), (no name), (no name), (no name), (no name) and 7 more
+  - form: "Solliciteren op Open sollicitatie"
+  - textbox: "Naam", "E-mail", "Telefoonnummer", "Motivatie"
+  - checkbox: "Ik ga akkoord met de voorwaarden"
+  - button: "Verstuur sollicitatie"
+
+https://on.cypress.io/getbyrole
+      at Context.eval (webpack://base/./cypress/e2e/fail/opzettelijk-falend.cy.ts:32:7)
+
+
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        2                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      2                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  2                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     9 seconds                                                                        │
+  │ Spec Ran:     opzettelijk-falend.cy.ts                                                         │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  …/e2e-benchmark/cypre    (2560x1440)
+     ss-app/cypress/screenshots/opzettelijk-falend.cy.ts/Opzettelijk falend -- verwac               
+     ht een andere succestekst dan de echte (failed) (1).png                                        
+  -  …/e2e-benchmark/cypre    (2560x1440)
+     ss-app/cypress/screenshots/opzettelijk-falend.cy.ts/Opzettelijk falend -- klikt                
+     op een knop die niet bestaat (failed) (1).png                                                  
+
+
+================================================================================
+
+  (Run Finished)
+
+
+       Spec                                              Tests  Passing  Failing  Pending  Skipped  
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ ✖  opzettelijk-falend.cy.ts                 00:09        2        -        2        -        - │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+    ✖  1 of 1 failed (100%)                     00:09        2        -        2        -        -  
+

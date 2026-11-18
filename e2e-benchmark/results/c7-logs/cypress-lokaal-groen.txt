@@ -1,0 +1,167 @@
+Warning: We failed to trash the existing run results.
+
+This error will not affect or change the exit code.
+
+Error: spawn Unknown system error -86
+    at ChildProcess.spawn (node:internal/child_process:487:11)
+    at spawn (node:child_process:827:9)
+    at execFile (node:child_process:349:17)
+    at execFile (node:child_process:245:21)
+    at execFile (node:electron/js2c/node_init:2:4060)
+    at s.exports (<embedded>:1146:535911)
+    at s.exports (<embedded>:1146:536512)
+    at s.exports (<embedded>:1146:579768)
+    at async <embedded>:3002:111697
+
+================================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:        16.3.0                                                                         │
+  │ Browser:        Electron 150 (headless) (deprecated)                                           │
+  │ Node Version:   v24.20.0 (/usr/local/bin/node)                                                 │
+  │ Specs:          4 found (flow.cy.ts, vacatures.cy.ts, validatie.cy.ts, versturen.cy.ts)        │
+  │ Searched:       cypress/e2e/main/**/*.cy.ts                                                    │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+Warning: The Electron browser is deprecated as a test browser and will be removed in a future version of Cypress.
+
+Switch to Chrome or another installed browser to avoid a breaking change when you upgrade.
+
+Read more about supported browsers: https://on.cypress.io/launching-browsers
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  flow.cy.ts                                                                      (1 of 4)
+
+
+  Flow
+    ✓ volledige flow: vacature zoeken en open sollicitatie versturen (1061ms)
+    ✓ locatiefilter toont alleen vacatures op die locatie (187ms)
+    ✓ toont een melding als de vacatures niet geladen kunnen worden (49ms)
+
+
+  3 passing (1s)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        3                                                                                │
+  │ Passing:      3                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     1 second                                                                         │
+  │ Spec Ran:     flow.cy.ts                                                                       │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  vacatures.cy.ts                                                                 (2 of 4)
+
+
+  Vacatures
+    ✓ toont de lijst met vacatures (131ms)
+    ✓ zoeken filtert de lijst (192ms)
+    ✓ toont een melding als er geen vacatures gevonden worden (176ms)
+
+
+  3 passing (531ms)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        3                                                                                │
+  │ Passing:      3                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     0 seconds                                                                        │
+  │ Spec Ran:     vacatures.cy.ts                                                                  │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  validatie.cy.ts                                                                 (3 of 4)
+
+
+  Validatie
+    ✓ toont foutmeldingen bij leeg versturen (207ms)
+    ✓ toont een foutmelding bij een ongeldig e-mailadres (767ms)
+    ✓ toont een foutmelding bij een ongeldig telefoonnummer (768ms)
+
+
+  3 passing (2s)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        3                                                                                │
+  │ Passing:      3                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     1 second                                                                         │
+  │ Spec Ran:     validatie.cy.ts                                                                  │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  versturen.cy.ts                                                                 (4 of 4)
+
+
+  Versturen
+    ✓ toont een succesmelding na versturen (840ms)
+    ✓ het verzoek bevat de ingevulde gegevens (783ms)
+    ✓ toont een foutmelding als de API status 500 geeft (761ms)
+
+
+  3 passing (2s)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        3                                                                                │
+  │ Passing:      3                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     2 seconds                                                                        │
+  │ Spec Ran:     versturen.cy.ts                                                                  │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+================================================================================
+
+  (Run Finished)
+
+
+       Spec                                              Tests  Passing  Failing  Pending  Skipped  
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ ✔  flow.cy.ts                               00:01        3        3        -        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  vacatures.cy.ts                          533ms        3        3        -        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  validatie.cy.ts                          00:01        3        3        -        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  versturen.cy.ts                          00:02        3        3        -        -        - │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+    ✔  All specs passed!                        00:06       12       12        -        -        -  
+

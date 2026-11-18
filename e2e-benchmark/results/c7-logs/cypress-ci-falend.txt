@@ -1,0 +1,126 @@
+[35mWarning: We failed to trash the existing run results.[39m
+[35m[39m
+[35mThis error will not affect or change the exit code.[39m
+[35m[39m
+[35mError: spawn Unknown system error -86[39m
+[35m    at ChildProcess.spawn (node:internal/child_process:487:11)[39m
+[35m    at spawn (node:child_process:827:9)[39m
+[35m    at execFile (node:child_process:349:17)[39m
+[35m    at execFile (node:child_process:245:21)[39m
+[35m    at execFile (node:electron/js2c/node_init:2:4060)[39m
+[35m    at s.exports (<embedded>:1146:535911)[39m
+[35m    at s.exports (<embedded>:1146:536512)[39m
+[35m    at s.exports (<embedded>:1146:579768)[39m
+[35m    at async <embedded>:3002:111697[39m
+
+[90m====================================================================================================[39m
+
+[0m  ([4m[1mRun Starting[22m[24m)[0m
+
+[90m  ┌[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m┐[39m
+[90m  │[39m [90mCypress:[39m        16.3.0                                                                         [90m│[39m
+[90m  │[39m [90mBrowser:[39m        Electron 150 [90m(headless)[39m [33m(deprecated)[39m                                           [90m│[39m
+[90m  │[39m [90mNode Version:[39m   [0mv24.20.0 [90m(/usr/local/bin/node)[39m[0m                                                 [90m│[39m
+[90m  │[39m [90mSpecs:[39m          [0m1 found (opzettelijk-falend.cy.ts)[0m                                             [90m│[39m
+[90m  │[39m [90mSearched:[39m       [0mcypress/e2e/fail/**/*.cy.ts[0m                                                    [90m│[39m
+[90m  └[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m┘[39m
+
+[35m[95mWarning:[39m[35m The [33mElectron[39m[35m browser is deprecated as a test browser and will be removed in a future version of Cypress.[39m
+[35m[39m
+[35mSwitch to Chrome or another installed browser to avoid a breaking change when you upgrade.[39m
+[35m[39m
+[35mRead more about supported browsers: https://on.cypress.io/launching-browsers[39m
+[35m[39m
+
+[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m
+                                                                                                    
+  Running:  [90mopzettelijk-falend.cy.ts[39m                                                        [90m(1 of 1)[39m
+
+[0m[0m
+[0m  Opzettelijk falend[0m
+  [31m  1) verwacht een andere succestekst dan de echte[0m
+  [31m  2) klikt op een knop die niet bestaat[0m
+
+
+[92m [0m[32m 0 passing[0m[90m (9s)[0m
+[31m  2 failing[0m
+
+[0m  1) Opzettelijk falend
+       verwacht een andere succestekst dan de echte:
+[0m[31m     AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Bedankt voor je inschrijving!' but never did.[0m[90m
+      at Context.eval (webpack://base/./cypress/e2e/fail/opzettelijk-falend.cy.ts:28:49)
+[0m
+[0m  2) Opzettelijk falend
+       klikt op een knop die niet bestaat:
+[0m[31m     AssertionError: Timed out retrying after 4000ms: Expected to find an accessible native element with the role "button" and name "Annuleer sollicitatie", but never did.
+
+Here are the accessible roles that were found, with the accessible name of each element:
+
+  - main: (no name)
+  - heading: "Vacatures", "Frontend developer", "Backend developer", "UX-designer", "Data-analist" and 1 more
+  - region: "Vacatures"
+  - searchbox: "Zoeken"
+  - combobox: "Locatie"
+  - option: "Alle locaties", "Amsterdam", "Groningen", "Utrecht"
+  - status: (no name)
+  - list: (no name)
+  - listitem: (no name), (no name), (no name), (no name)
+  - article: "Frontend developer", "Backend developer", "UX-designer", "Data-analist"
+  - paragraph: (no name), (no name), (no name), (no name), (no name) and 7 more
+  - form: "Solliciteren op Open sollicitatie"
+  - textbox: "Naam", "E-mail", "Telefoonnummer", "Motivatie"
+  - checkbox: "Ik ga akkoord met de voorwaarden"
+  - button: "Verstuur sollicitatie"
+
+https://on.cypress.io/getbyrole[0m[90m
+      at Context.eval (webpack://base/./cypress/e2e/fail/opzettelijk-falend.cy.ts:32:7)
+[0m
+
+
+
+[31m  ([4m[1mResults[22m[24m)[39m
+
+[90m  ┌[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m┐[39m
+[90m  │[39m [90mTests:[39m        [31m2[39m                                                                                [90m│[39m
+[90m  │[39m [90mPassing:[39m      [31m0[39m                                                                                [90m│[39m
+[90m  │[39m [90mFailing:[39m      [31m2[39m                                                                                [90m│[39m
+[90m  │[39m [90mPending:[39m      [31m0[39m                                                                                [90m│[39m
+[90m  │[39m [90mSkipped:[39m      [31m0[39m                                                                                [90m│[39m
+[90m  │[39m [90mScreenshots:[39m  [31m2[39m                                                                                [90m│[39m
+[90m  │[39m [90mVideo:[39m        [31mfalse[39m                                                                            [90m│[39m
+[90m  │[39m [90mDuration:[39m     [31m9 seconds[39m                                                                        [90m│[39m
+[90m  │[39m [90mSpec Ran:[39m     [31m[31mopzettelijk-falend.cy.ts[31m[39m                                                         [90m│[39m
+[90m  └[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m┘[39m
+
+
+[33m  ([4m[1mScreenshots[22m[24m)[39m
+
+[90m [39m -  [0m…/e2e-benchmark/cypre[0m    [90m[90m(2560x1440)[90m[39m
+[90m [39m    [0mss-app/cypress/screenshots/opzettelijk-falend.cy.ts/Opzettelijk falend -- verwac[0m               
+[90m [39m    [0mht een andere succestekst dan de echte (failed) (2).png[0m                                        
+[90m [39m -  [0m…/e2e-benchmark/cypre[0m    [90m[90m(2560x1440)[90m[39m
+[90m [39m    [0mss-app/cypress/screenshots/opzettelijk-falend.cy.ts/Opzettelijk falend -- klikt [0m               
+[90m [39m    [0mop een knop die niet bestaat (failed) (2).png[0m                                                  
+
+
+[90m====================================================================================================[39m
+
+[0m  ([4m[1mRun Finished[22m[24m)[0m
+
+
+[90m   [39m    [90mSpec[39m                                              [90mTests[39m  [90mPassing[39m  [90mFailing[39m  [90mPending[39m  [90mSkipped[39m [90m [39m
+[90m  ┌[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m┐[39m
+[90m  │[39m [31m✖[39m  [0mopzettelijk-falend.cy.ts[0m                 [90m00:09[39m        [0m2[0m        [90m-[39m        [31m2[39m        [90m-[39m        [90m-[39m [90m│[39m
+[90m  └[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m─[39m[90m┘[39m
+[90m   [39m [31m✖[39m  [31m1 of 1 failed (100%)[39m                     [90m00:09[39m        [0m2[0m        [90m-[39m        [31m2[39m        [90m-[39m        [90m-[39m [90m [39m
+
+[90m----------------------------------------------------------------------------------------------------[39m
+
+  Debug faster with full visibility.
+
+  Record to Cypress Cloud and get instant access to full test details and replays.
+  Inspect the DOM, network events, and console logs exactly as they ran in CI.
+
+  >> [36mhttps://on.cypress.io/cloud-get-started[39m
+
+[90m----------------------------------------------------------------------------------------------------[39m

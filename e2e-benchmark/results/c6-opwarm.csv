@@ -1,0 +1,13 @@
+library,modus,schaal,run,tijd_ms,aantal_tests,aantal_bestanden,ms_per_test,exitcode
+cypress,lokaal,1,opwarm,10524,12,4,877.0,0
+playwright,lokaal,1,opwarm,1649,12,4,137.4,0
+cypress,ci,1,opwarm,10517,12,4,876.4,0
+playwright,ci,1,opwarm,2958,12,4,246.5,0
+cypress,lokaal,5,opwarm,45351,60,20,755.9,0
+playwright,lokaal,5,opwarm,3925,60,20,65.4,0
+cypress,ci,5,opwarm,45356,60,20,755.9,0
+playwright,ci,5,opwarm,11650,60,20,194.2,0
+cypress,lokaal,10,opwarm,90375,120,40,753.1,0
+playwright,lokaal,10,opwarm,7123,120,40,59.4,0
+cypress,ci,10,opwarm,90482,120,40,754.0,0
+playwright,ci,10,opwarm,23678,120,40,197.3,0

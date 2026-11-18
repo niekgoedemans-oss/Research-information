@@ -1,0 +1,55 @@
+
+Running 2 tests using 2 workers
+
+[1/2] [chromium] › tests/fail/opzettelijk-falend.spec.ts:21:3 › Opzettelijk falend › verwacht een andere succestekst dan de echte
+[2/2] [chromium] › tests/fail/opzettelijk-falend.spec.ts:30:3 › Opzettelijk falend › klikt op een knop die niet bestaat
+  1) [chromium] › tests/fail/opzettelijk-falend.spec.ts:21:3 › Opzettelijk falend › verwacht een andere succestekst dan de echte 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByText('Bedankt voor je inschrijving!')
+    Expected: visible
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" getByText('Bedankt voor je inschrijving!') with timeout 5000ms
+      - waiting for getByText('Bedankt voor je inschrijving!')
+
+
+      25 |     await vulFormulierIn(page, applicant);
+      26 |     await page.getByRole('button', { name: 'Verstuur sollicitatie' }).click();
+    > 27 |     await expect(page.getByText('Bedankt voor je inschrijving!')).toBeVisible();
+         |                                                                   ^
+      28 |   });
+      29 |
+      30 |   test('klikt op een knop die niet bestaat', async ({ page }) => {
+        at …/e2e-benchmark/playwright-app/tests/fail/opzettelijk-falend.spec.ts:27:67
+
+    Error Context: test-results/fail-opzettelijk-falend-Op-c302c-re-succestekst-dan-de-echte-chromium/error-context.md
+
+
+  2) [chromium] › tests/fail/opzettelijk-falend.spec.ts:30:3 › Opzettelijk falend › klikt op een knop die niet bestaat 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for getByRole('button', { name: 'Annuleer sollicitatie' })
+
+
+      29 |
+      30 |   test('klikt op een knop die niet bestaat', async ({ page }) => {
+    > 31 |     await page.getByRole('button', { name: 'Annuleer sollicitatie' }).click();
+         |                                                                       ^
+      32 |   });
+      33 | });
+      34 |
+        at …/e2e-benchmark/playwright-app/tests/fail/opzettelijk-falend.spec.ts:31:71
+
+    Error Context: test-results/fail-opzettelijk-falend-Op-f3fd2-p-een-knop-die-niet-bestaat-chromium/error-context.md
+
+
+  2 failed
+    [chromium] › tests/fail/opzettelijk-falend.spec.ts:21:3 › Opzettelijk falend › verwacht een andere succestekst dan de echte 
+    [chromium] › tests/fail/opzettelijk-falend.spec.ts:30:3 › Opzettelijk falend › klikt op een knop die niet bestaat 

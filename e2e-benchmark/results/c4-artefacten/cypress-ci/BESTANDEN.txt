@@ -1,0 +1,4 @@
+Bestanden die `cypress run --spec "cypress/e2e/fail/**/*.cy.ts"` (modus ci) aanmaakte of wijzigde in cypress-app/:
+
+cypress/screenshots/opzettelijk-falend.cy.ts/Opzettelijk falend -- klikt op een knop die niet bestaat (failed).png	210407 bytes
+cypress/screenshots/opzettelijk-falend.cy.ts/Opzettelijk falend -- verwacht een andere succestekst dan de echte (failed).png	275883 bytes

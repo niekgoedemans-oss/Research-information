@@ -1,0 +1,35 @@
+Bestanden die `playwright test tests/fail/` (modus ci) aanmaakte of wijzigde in playwright-app/:
+
+playwright-report/data/4008ea4f5cee446feaac11e704690a994609800a.zip	173238 bytes
+playwright-report/data/5c99c4bfd4abe31e4893e39a51e22f62ff2fae11.zip	57553 bytes
+playwright-report/data/a0d60310b94f5c2c817a29e6f32b9e8db2ce3c8c.md	4697 bytes
+playwright-report/data/da98988492f019c78e26de9a67cae70298bdc0fc.md	3948 bytes
+playwright-report/index.html	523034 bytes
+playwright-report/trace/assets/codeMirrorModule-DNqxPF-E.js	307383 bytes
+playwright-report/trace/assets/defaultSettingsView-BQT9Z6FV.js	669380 bytes
+playwright-report/trace/assets/rolldown-runtime-QTnfLwEv.js	694 bytes
+playwright-report/trace/assets/urlMatch-Cgl6axSs.js	806 bytes
+playwright-report/trace/codeMirrorModule.-QdMvsKi.css	6251 bytes
+playwright-report/trace/codicon.DCmgc-ay.ttf	80340 bytes
+playwright-report/trace/defaultSettingsView.C8BeHuxd.css	107270 bytes
+playwright-report/trace/index.BY2vkw8A.js	6642 bytes
+playwright-report/trace/index.B_TqY17P.css	2055 bytes
+playwright-report/trace/index.html	2451 bytes
+playwright-report/trace/manifest.webmanifest	429 bytes
+playwright-report/trace/playwright-logo.svg	5033 bytes
+playwright-report/trace/snapshot.-ChLTbql.js	650 bytes
+playwright-report/trace/snapshot.html	389 bytes
+playwright-report/trace/sw.bundle.js	96720 bytes
+playwright-report/trace/uiMode.CyMfwkXJ.css	54590 bytes
+playwright-report/trace/uiMode.DuLwZHRf.js	37909 bytes
+playwright-report/trace/uiMode.html	815 bytes
+playwright-report/trace/xtermModule.kHJ-D0s7.css	2853 bytes
+test-results/.last-run.json	145 bytes
+test-results/fail-opzettelijk-falend-Op-c302c-re-succestekst-dan-de-echte-chromium-retry1/error-context.md	3948 bytes
+test-results/fail-opzettelijk-falend-Op-c302c-re-succestekst-dan-de-echte-chromium-retry1/trace.zip	173238 bytes
+test-results/fail-opzettelijk-falend-Op-c302c-re-succestekst-dan-de-echte-chromium-retry2/error-context.md	3948 bytes
+test-results/fail-opzettelijk-falend-Op-c302c-re-succestekst-dan-de-echte-chromium/error-context.md	3948 bytes
+test-results/fail-opzettelijk-falend-Op-f3fd2-p-een-knop-die-niet-bestaat-chromium-retry1/error-context.md	4697 bytes
+test-results/fail-opzettelijk-falend-Op-f3fd2-p-een-knop-die-niet-bestaat-chromium-retry1/trace.zip	57553 bytes
+test-results/fail-opzettelijk-falend-Op-f3fd2-p-een-knop-die-niet-bestaat-chromium-retry2/error-context.md	4697 bytes
+test-results/fail-opzettelijk-falend-Op-f3fd2-p-een-knop-die-niet-bestaat-chromium/error-context.md	4697 bytes

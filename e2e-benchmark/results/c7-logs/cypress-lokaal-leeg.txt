@@ -1,0 +1,19 @@
+Warning: We failed to trash the existing run results.
+
+This error will not affect or change the exit code.
+
+Error: spawn Unknown system error -86
+    at ChildProcess.spawn (node:internal/child_process:487:11)
+    at spawn (node:child_process:827:9)
+    at execFile (node:child_process:349:17)
+    at execFile (node:child_process:245:21)
+    at execFile (node:electron/js2c/node_init:2:4060)
+    at s.exports (<embedded>:1146:535911)
+    at s.exports (<embedded>:1146:536512)
+    at s.exports (<embedded>:1146:579768)
+    at async <embedded>:3002:111697
+Can't run because no spec files were found.
+
+We searched for specs matching this glob pattern:
+
+  > …/e2e-benchmark/cypress-app/cypress/e2e/empty/**/*.cy.ts

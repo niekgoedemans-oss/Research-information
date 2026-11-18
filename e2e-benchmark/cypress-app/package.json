@@ -1,0 +1,28 @@
+{
+  "name": "base",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "cypress:open": "cypress open",
+    "test": "cypress run --spec \"cypress/e2e/main/**/*.cy.ts\"",
+    "test:bench": "cypress run --spec \"cypress/e2e/bench/**/*.cy.ts\"",
+    "test:fail": "cypress run --spec \"cypress/e2e/fail/**/*.cy.ts\"",
+    "test:empty": "cypress run --spec \"cypress/e2e/empty/**/*.cy.ts\""
+  },
+  "dependencies": {
+    "next": "16.4.6",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "cypress": "^16.3.0",
+    "typescript": "^5"
+  },
+  "packageManager": "pnpm@12.4.2"
+}

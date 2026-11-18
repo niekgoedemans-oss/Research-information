@@ -1,0 +1,13 @@
+library,modus,schaal,aantal_tests,geslaagd,gefaald,flaky,aantal_bestanden,workers,exitcode
+cypress,lokaal,1,12,12,0,0,4,1,0
+playwright,lokaal,1,12,12,0,0,4,5,0
+cypress,ci,1,12,12,0,0,4,1,0
+playwright,ci,1,12,12,0,0,4,1,0
+cypress,lokaal,5,60,60,0,0,20,1,0
+playwright,lokaal,5,60,60,0,0,20,5,0
+cypress,ci,5,60,60,0,0,20,1,0
+playwright,ci,5,60,60,0,0,20,1,0
+cypress,lokaal,10,120,120,0,0,40,1,0
+playwright,lokaal,10,120,120,0,0,40,5,0
+cypress,ci,10,120,120,0,0,40,1,0
+playwright,ci,10,120,120,0,0,40,1,0

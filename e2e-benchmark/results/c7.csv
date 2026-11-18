@@ -1,0 +1,13 @@
+library,modus,situatie,script,commando,exitcode,tijd_ms,extra_pogingen
+cypress,lokaal,groen,test,"cypress run --spec ""cypress/e2e/main/**/*.cy.ts""",0,10826,0
+cypress,lokaal,falend,test:fail,"cypress run --spec ""cypress/e2e/fail/**/*.cy.ts""",2,11836,0
+cypress,lokaal,leeg,test:empty,"cypress run --spec ""cypress/e2e/empty/**/*.cy.ts""",1,1281,0
+playwright,lokaal,groen,test,playwright test tests/main/,0,1720,0
+playwright,lokaal,falend,test:fail,playwright test tests/fail/,1,30795,0
+playwright,lokaal,leeg,test:empty,playwright test tests/empty/,1,330,0
+cypress,ci,groen,test,"cypress run --spec ""cypress/e2e/main/**/*.cy.ts""",0,10898,0
+cypress,ci,falend,test:fail,"cypress run --spec ""cypress/e2e/fail/**/*.cy.ts""",2,11899,0
+cypress,ci,leeg,test:empty,"cypress run --spec ""cypress/e2e/empty/**/*.cy.ts""",1,1302,0
+playwright,ci,groen,test,playwright test tests/main/,0,3029,0
+playwright,ci,falend,test:fail,playwright test tests/fail/,1,108573,4
+playwright,ci,leeg,test:empty,playwright test tests/empty/,1,339,0

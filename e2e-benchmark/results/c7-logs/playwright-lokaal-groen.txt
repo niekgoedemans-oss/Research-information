@@ -1,0 +1,16 @@
+
+Running 12 tests using 5 workers
+
+[1/12] [chromium] › tests/main/vacatures.spec.ts:13:3 › Vacatures › toont de lijst met vacatures
+[2/12] [chromium] › tests/main/flow.spec.ts:31:3 › Flow › locatiefilter toont alleen vacatures op die locatie
+[3/12] [chromium] › tests/main/flow.spec.ts:42:3 › Flow › toont een melding als de vacatures niet geladen kunnen worden
+[4/12] [chromium] › tests/main/flow.spec.ts:15:3 › Flow › volledige flow: vacature zoeken en open sollicitatie versturen
+[5/12] [chromium] › tests/main/vacatures.spec.ts:19:3 › Vacatures › zoeken filtert de lijst
+[6/12] [chromium] › tests/main/vacatures.spec.ts:28:3 › Vacatures › toont een melding als er geen vacatures gevonden worden
+[7/12] [chromium] › tests/main/validatie.spec.ts:21:3 › Validatie › toont foutmeldingen bij leeg versturen
+[8/12] [chromium] › tests/main/validatie.spec.ts:30:3 › Validatie › toont een foutmelding bij een ongeldig e-mailadres
+[9/12] [chromium] › tests/main/validatie.spec.ts:37:3 › Validatie › toont een foutmelding bij een ongeldig telefoonnummer
+[10/12] [chromium] › tests/main/versturen.spec.ts:21:3 › Versturen › toont een succesmelding na versturen
+[11/12] [chromium] › tests/main/versturen.spec.ts:30:3 › Versturen › het verzoek bevat de ingevulde gegevens
+[12/12] [chromium] › tests/main/versturen.spec.ts:40:3 › Versturen › toont een foutmelding als de API status 500 geeft
+  12 passed (1.4s)

@@ -1,0 +1,55 @@
+{
+  "apiBaseUrl": "https://api.vacaturebank.example/v1",
+  "vacancies": [
+    {
+      "id": "vac-001",
+      "title": "Frontend developer",
+      "company": "Pixelfabriek BV",
+      "location": "Utrecht",
+      "salaryMin": 3500,
+      "salaryMax": 4800
+    },
+    {
+      "id": "vac-002",
+      "title": "Backend developer",
+      "company": "Datadijk BV",
+      "location": "Amsterdam",
+      "salaryMin": 4000,
+      "salaryMax": 5500
+    },
+    {
+      "id": "vac-003",
+      "title": "UX-designer",
+      "company": "Ontwerpstudio Noord",
+      "location": "Groningen",
+      "salaryMin": 3200,
+      "salaryMax": 4200
+    },
+    {
+      "id": "vac-004",
+      "title": "Data-analist",
+      "company": "Cijferhuis BV",
+      "location": "Utrecht",
+      "salaryMin": 3800,
+      "salaryMax": 3800
+    }
+  ],
+  "applicant": {
+    "name": "Sam de Vries",
+    "email": "sam.devries@voorbeeld.example",
+    "phone": "06 12345678",
+    "motivation": "Ik werk graag aan toegankelijke websites en leer elke dag bij."
+  },
+  "invalid": {
+    "email": "sam@voorbeeld",
+    "phone": "12345"
+  },
+  "search": {
+    "term": "developer",
+    "noResultsTerm": "kapper",
+    "location": "Utrecht"
+  },
+  "applicationResponse": {
+    "id": "sollicitatie-0001"
+  }
+}
