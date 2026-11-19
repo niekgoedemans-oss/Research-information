@@ -7,7 +7,7 @@ Ik doe een onderzoek naar testing libraries voor de Next.js-projecten van Framna
 ## Waar
 
 - **Map:** `/Users/niek.goedemans/Desktop/Projects/DPF-GIT-G-Web-MaandagPublic/.claude/worktrees/poc-testing`
-- **Branch:** `research/poc-testing`. Werk alleen in deze map. Lees `AGENTS.md`.
+- **Branch:** `research/poc-testing`. Werk alleen in deze map.
 - **Jest 29.7** met twee projects in `jest.config.js`:
   - `unit`: node-omgeving, testMatch `**/*.(test|spec).{js,ts}` en `**/__tests__/**/*.{js,ts}`.
   - `component`: jsdom, `**/*.test.tsx`.
